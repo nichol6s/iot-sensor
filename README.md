@@ -22,7 +22,7 @@ Usamos os seguintes hardwares:
 
 ![Demonstração do Projeto img](documents/image.png)
 
--   Monitoramento em tempo real de temperatura e umidade usando o sensor DHT22
+-   Monitoramento em tempo real de temperatura e umidade usando o sensor DHT11
 -   Comunicação MQTT para publicação de dados e controle de LED
 -   Limiares de temperatura personalizáveis para ativação do LED
 -   Dashboard Node-RED para visualização de dados
