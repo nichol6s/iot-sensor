@@ -18,15 +18,6 @@ Usamos os seguintes hardwares:
 -   Resistor de 220Ω (para o LED)
 -   Protoboard e jumpers
 
-## Índice
-
--   [Características](#características)
--   [Requisitos de Software](#requisitos-de-software)
--   [Configuração e Instalação](#configuração-e-instalação)
--   [Tópicos MQTT](#tópicos-mqtt)
--   [Dashboard Node-RED](#dashboard-node-red)
--   [Membros da Equipe](#membros-da-equipe)
-
 ## Características
 
 ![Demonstração do Projeto img](documents/image.png)
@@ -62,7 +53,7 @@ Usamos os seguintes hardwares:
     - Fizemos o upload do código para o ESP32 e funcionou!!.
 
 3. **Configuração do Node-RED**:
-    - Importe o fluxo Node-RED fornecido.
+    - Importe o fluxo Node-RED fornecido dentro da pasta src.
     - Configure os nós MQTT para conectar ao seu broker.
     - Implemente o fluxo e acesse o dashboard.
 
@@ -84,7 +75,7 @@ O dashboard Node-RED fornece uma interface visual para monitoramento do sistema.
 -   Indicadores de status do LED para cada membro da equipe
 -   Mensagens de status do sistema
 
-Ele está presente dentro da pasta src juntamente com todo o codigo fonte do projeto!
+Todo o código fonte do projeto está dentro da pasta src!
 
 ## Membros da Equipe
 
