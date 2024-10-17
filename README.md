@@ -75,7 +75,6 @@ O dashboard Node-RED fornece uma interface visual para monitoramento do sistema.
 -   Indicadores de status do LED para cada membro da equipe
 -   Mensagens de status do sistema
 
-Todo o código fonte do projeto está dentro da pasta src!
 
 ## Membros da Equipe
 
@@ -102,6 +101,14 @@ Todo o código fonte do projeto está dentro da pasta src!
         <img src="https://avatars.githubusercontent.com/u/126472870?v=4" width="115px;" alt="Foto do Violante no GitHub"/><br>
         <sub>
           <strong>Eduardo Violante</strong>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/pedrocpacheco">
+        <img src="https://avatars.githubusercontent.com/u/112909829?v=4" width="115px;" alt="Foto do Pedro no Github"/><br>
+        <sub>
+          <strong>Pedro Pacheco</strong>
         </sub>
       </a>
     </td>
