@@ -1,39 +1,41 @@
 # Projeto de Controle de Temperatura IoT
 
-![alt text](documents/wokwi.png)
+![Imagem do Wokwi](documents/wokwi.png)
 
 ## Visão Geral
 
 Este projeto implementa um sistema de controle de temperatura baseado em IoT usando um microcontrolador ESP32, sensor de temperatura e umidade DHT22 e um indicador LED. O sistema monitora temperatura e umidade, publica os dados em um broker MQTT e controla um LED com base em limiares de temperatura predefinidos para diferentes membros da equipe.
 
-![Demonstração do Projeto](documents/sensor-esp32.gif)
+![Demonstração do Projeto GIF](documents/sensor-esp32.gif)
+
+Nesse GIF podemos observar o funcionamento do projeto na prática. Ao encostar no sensor ele aumenta a sua temperatura e assim liga o LED.
+
+Usamos os seguintes hardwares:
+
+-   Placa de Desenvolvimento ESP32
+-   Sensor de Temperatura e Umidade DHT11 (No simulador utilizamos o DHT22)
+-   LED (para indicação visual)
+-   Resistor de 220Ω (para o LED)
+-   Protoboard e jumpers
 
 ## Índice
 
 -   [Características](#características)
--   [Requisitos de Hardware](#requisitos-de-hardware)
 -   [Requisitos de Software](#requisitos-de-software)
 -   [Configuração e Instalação](#configuração-e-instalação)
 -   [Tópicos MQTT](#tópicos-mqtt)
 -   [Dashboard Node-RED](#dashboard-node-red)
 -   [Membros da Equipe](#membros-da-equipe)
--   [Licença](#licença)
 
 ## Características
+
+![Demonstração do Projeto img](documents/image.png)
 
 -   Monitoramento em tempo real de temperatura e umidade usando o sensor DHT22
 -   Comunicação MQTT para publicação de dados e controle de LED
 -   Limiares de temperatura personalizáveis para ativação do LED
 -   Dashboard Node-RED para visualização de dados
 -   Ambiente simulado usando Wokwi e implementação física
-
-## Requisitos de Hardware
-
--   Placa de Desenvolvimento ESP32
--   Sensor de Temperatura e Umidade DHT22
--   LED (para indicação visual)
--   Resistor de 220Ω (para o LED)
--   Protoboard e jumpers
 
 ## Requisitos de Software
 
@@ -47,17 +49,17 @@ Este projeto implementa um sistema de controle de temperatura baseado em IoT usa
 
 ## Configuração e Instalação
 
-1. **Como configurar o Hardware**:
+1. **Como configuramos o Hardware**:
 
-    - Conecte o sensor DHT22 ao pino GPIO 15 do ESP32.
-    - Conecte o LED ao pino GPIO 5 do ESP32 através de um resistor de 220Ω.
+    - Conectamos o sensor DHT22 ao pino GPIO 15 do ESP32.
+    - Conectamos o LED ao pino GPIO 5 do ESP32 através de um resistor de 220Ω.
 
-2. **Como configurar na IDE**:
+2. **Como configuramos na IDE**:
 
-    - Instale as bibliotecas necessárias no Arduino IDE.
-    - Copie o código Arduino fornecido para um novo sketch.
-    - Atualize as credenciais de WiFi e os detalhes do broker MQTT no código.
-    - Faça o upload do código para o seu ESP32.
+    - Instalamos as bibliotecas necessárias no Arduino IDE.
+    - Adaptamos o código do silumador.
+    - Atualizamos as credenciais de WiFi e os detalhes do broker MQTT no código.
+    - Fizemos o upload do código para o ESP32 e funcionou!!.
 
 3. **Configuração do Node-RED**:
     - Importe o fluxo Node-RED fornecido.
@@ -76,11 +78,13 @@ Este projeto implementa um sistema de controle de temperatura baseado em IoT usa
 
 ![Dashboard Node-RED](documents/dashboard.png)
 
-O dashboard Node-RED fornece uma interface visual para monitoramento do sistema:
+O dashboard Node-RED fornece uma interface visual para monitoramento do sistema.
 
 -   Gráficos em tempo real de temperatura e umidade
 -   Indicadores de status do LED para cada membro da equipe
 -   Mensagens de status do sistema
+
+Ele está presente dentro da pasta src juntamente com todo o codigo fonte do projeto!
 
 ## Membros da Equipe
 
